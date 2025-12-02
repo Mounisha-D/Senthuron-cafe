@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senthuron | Artisanal Coffee Experience</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="floating-nav">
+        <div class="floating-nav-container">
+            <div class="floating-nav-logo">
+                <span class="nav-text">Senthuron cafe</span>
+            </div>
+            <div class="floating-nav-menu">
+                <a href="#home" class="nav-item active"><i class="fas fa-home"></i> <span>Home</span></a>
+                <a href="#specials" class="nav-item"><i class="fas fa-star"></i> <span>Specials</span></a>
+                <a href="#menu" class="nav-item"><i class="fas fa-utensils"></i> <span>Menu</span></a>
+                <a href="#visit" class="nav-item"><i class="fas fa-map-marker-alt"></i> <span>Visit</span></a>
+            </div>
+            <button class="floating-order-btn">Order Online</button>
+        </div>
+    </div>
+    <section class="video-hero" id="home">
+        <div class="video-overlay"></div>
+        <video autoplay muted loop class="hero-video">
+            <source src="https://cdn.pixabay.com/vimeo/669083236/coffee-128014.mp4?width=1280&hash=cb76fb68b8f0386db3b7a4de3e6e2b0a2aa46a11" type="video/mp4">
+        </video>
+        <div class="hero-content-container">
+            <div class="hero-tagline">
+                <span class="tagline-text">EST. 2024</span>
+                <div class="tagline-line"></div>
+            </div>
+            <h1 class="main-heading">
+                <span class="heading-line-1">Crafting</span>
+                <span class="heading-line-2">Coffee</span>
+                <span class="heading-line-3">Experiences</span>
+            </h1>
+            <p class="hero-subtext">
+                Where every bean tells a story, and every cup creates a memory.
+                Experience our handcrafted brews in an atmosphere designed for connection.
+            </p>
+            <div class="hero-cta-buttons">
+                <a href="#menu" class="cta-button primary-cta">
+                    <i class="fas fa-mug-hot"></i>
+                    <span>View Our Brews</span>
+                </a>
+                <a href="#visit" class="cta-button secondary-cta">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Reserve Table</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Daily Specials Section -->
+    <section class="specials-section" id="specials">
+        <div class="section-container">
+            <div class="section-header-alt">
+                <div class="header-decoration">
+                    <div class="decoration-line"></div>
+                    <span class="decoration-icon">☕</span>
+                    <div class="decoration-line"></div>
+                </div>
+                <h2 class="section-title-alt">Today's Specials</h2>
+                <p class="section-subtitle-alt">Freshly crafted for you today</p>
+            </div>
+
+            <div class="specials-grid">
+                <!-- Specials will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Menu Section -->
+    <section class="interactive-menu" id="menu">
+        <div class="section-container">
+            <div class="menu-header">
+                <h2 class="menu-title">Our <span class="highlight">Signature</span> Menu</h2>
+                <p class="menu-subtitle">Click any category to explore our offerings</p>
+            </div>
+            
+            <div class="menu-category-selector">
+                <div class="category-card" data-category="espresso">
+                    <div class="category-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Espresso Classics</h3>
+                    <p>Strong & bold</p>
+                </div>
+                <div class="category-card" data-category="brew">
+                    <div class="category-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <h3>Pour Overs</h3>
+                    <p>Slow & delicate</p>
+                </div>
+                <div class="category-card" data-category="pastry">
+                    <div class="category-icon">
+                        <i class="fas fa-cookie-bite"></i>
+                    </div>
+                    <h3>Fresh Pastries</h3>
+                    <p>Baked daily</p>
+                </div>
+                <div class="category-card active" data-category="all">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Full Menu</h3>
+                    <p>View all items</p>
+                </div>
+            </div>
+
+            <div class="menu-items-container">
+                <div class="menu-items-grid">
+                    <!-- Menu items loaded by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Section with Map and Form -->
+    <section class="visit-section" id="visit">
+        <div class="section-container">
+            <div class="visit-header">
+                <h2 class="visit-title">Visit Our <span class="accent">Sanctuary</span></h2>
+                <p class="visit-subtitle">More than a café, it's an experience</p>
+            </div>
+            
+            <div class="visit-content">
+                <div class="visit-info-card">
+                    <div class="info-card-header">
+                        <i class="fas fa-store"></i>
+                        <h3>Senthuron cafe Flagship</h3>
+                    </div>
+                    <div class="info-card-body">
+                        <div class="info-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>456 Artisan Avenue<br>Downtown District<br>Tamil Nadu</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Hours</h4>
+                                <p><strong>Weekdays:</strong> 6:30 AM - 10:00 PM</p>
+                                <p><strong>Weekends:</strong> 7:00 AM - 11:00 PM</p>
+                                <p class="holiday-note">*Extended hours during holidays</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Contact</h4>
+                                <p><strong>Phone:</strong> (415) 555-BREW</p>
+                                <p><strong>Email:</strong> experience@senthuron.cafe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-card-footer">
+                        <div class="social-circle">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-spotify"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <a href="#"><i class="fab fa-yelp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reservation-form-card">
+                    <h3 class="form-title">Reserve Your Experience</h3>
+                    <p class="form-subtitle">Book a table for the perfect coffee moment</p>
+                    
+                    <form class="reservation-form" id="reservationForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservationName">
+                                    <i class="fas fa-user"></i>
+                                    Your Name
+                                </label>
+                                <input type="text" id="reservationName" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reservationEmail">
+                                    <i class="fas fa-envelope"></i>
+                                    Email Address
+                                </label>
+                                <input type="email" id="reservationEmail" placeholder="you@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservationDate">
+                                    <i class="fas fa-calendar"></i>
+                                    Date
+                                </label>
+                                <input type="date" id="reservationDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reservationTime">
+                                    <i class="fas fa-clock"></i>
+                                    Time
+                                </label>
+                                <select id="reservationTime" required>
+                                    <option value="">Select time</option>
+                                    <option value="08:00">8:00 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reservationMessage">
+                                <i class="fas fa-comment"></i>
+                                Special Requests
+                            </label>
+                            <textarea id="reservationMessage" placeholder="Any special requests or occasions..." rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">
+                            <span>Reserve Table</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        
+                        <div class="form-success-message" id="successMessage">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Reservation confirmed! We'll send details to your email.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="craft-footer">
+        <div class="footer-container">
+            <div class="footer-logo-section">
+                <div class="footer-logo">
+                    <span class="footer-logo-icon">𝝠</span>
+                    <div>
+                        <h3>Senthuron cafe</h3>
+                        <p>Crafting moments since 2024</p>
+                    </div>
+                </div>
+                <p class="footer-philosophy">
+                    We believe in the art of slow coffee, meaningful conversations, 
+                    and creating spaces where communities can thrive.
+                </p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <a href="#home">Our Story</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#visit">Locations</a>
+                    <a href="#visit">Events</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">Wholesale</a>
+                    <a href="#">Partnerships</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Senthuron cafe. All experiences crafted with care.</p>
+            <p class="footer-note">This website is a design concept for educational purposes.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-top-button" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>
