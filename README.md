@@ -17,7 +17,7 @@ Mobile Responsive design with hamburger navigation
 Interactive Elements including form validation and smooth scrolling
 
 Live Demo
-[View Live Website](https://your-deployment-link.netlify.app)
+[View Live Website](https://Mounisha-D.github.io/Senthuron-cafe)
 
 Project Structure
 SENTHURON-CAFE/
